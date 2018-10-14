@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="tygasoft-plugin-qdhtyy" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>QdhtyyPlugin</name>
+  <js-module name="QdhtyyPlugin" src="www/QdhtyyPlugin.js">
+    <clobbers target="QdhtyyPlugin" />
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="QdhtyyPlugin">
+        <param name="android-package" value="com.tygasoft.plugins.QdhtyyPlugin" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+    <source-file src="src/android/QdhtyyPlugin.java" target-dir="src/com/tygasoft/plugins" />
+    <source-file src="src/android/IQdhtyy.java" target-dir="src/com/tygasoft/services" />
+    <source-file src="src/android/QdhtyyService.java" target-dir="src/com/tygasoft/services" />
+    <source-file src="src/android/Qdhtyy.java" target-dir="src/com/tygasoft/bll" />
+    <source-file src="src/android/QdhtyySqliteHelper.java" target-dir="src/com/tygasoft/dbutility" />
+    <source-file src="src/android/ResResultInfo.java" target-dir="src/com/tygasoft/model" />
+    <source-file src="src/android/ResResult.java" target-dir="src/com/tygasoft/utility" />
+    <source-file src="src/android/libs/gson280.jar" target-dir="libs" />
+    <source-file src="src/android/libs/ksoap2Android24.jar" target-dir="libs" />
+  </platform>
+</plugin>

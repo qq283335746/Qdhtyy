@@ -1,0 +1,4 @@
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\WcfModel\bin\Debug\TygaSoft.WcfModel.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\WcfModel\bin\Debug\TygaSoft.WcfModel.pdb
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\WcfModel\obj\Debug\TygaSoft.WcfModel.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\WcfModel\obj\Debug\TygaSoft.WcfModel.pdb

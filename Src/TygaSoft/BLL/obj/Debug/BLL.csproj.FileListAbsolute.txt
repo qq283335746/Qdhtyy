@@ -1,0 +1,16 @@
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.BLL.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.BLL.pdb
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.DALFactory.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.IDAL.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.Model.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.SysHelper.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.WcfModel.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.DALFactory.pdb
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.IDAL.pdb
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.Model.pdb
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.SysHelper.pdb
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\bin\Debug\TygaSoft.WcfModel.pdb
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\obj\Debug\TygaSoft.BLL.dll
+D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\BLL\obj\Debug\TygaSoft.BLL.pdb

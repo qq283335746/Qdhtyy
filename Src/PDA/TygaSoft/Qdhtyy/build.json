@@ -1,0 +1,11 @@
+{
+     "android": {
+         "release": {
+             "keystore": "D:\\Keystores\\com-sw-qdhtyy.keystore",
+             "storePassword": "sw&qdhtyy",
+             "alias": "tygasoft",
+             "password" : "sw&qdhtyy",
+             "keystoreType": ""
+         }
+     }
+ }

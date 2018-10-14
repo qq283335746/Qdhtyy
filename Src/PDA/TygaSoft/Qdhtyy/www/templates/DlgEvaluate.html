@@ -1,0 +1,15 @@
+﻿<ion-header-bar class="bar-positive">
+    <div class="buttons">
+        <a class="button button-clear" ng-click="closeThisDialog(0)">关闭</a>
+    </div>
+    <h1 class="title">执行质量选项</h1>
+</ion-header-bar>
+<div style="min-height:460px;">
+    <div style="margin-top:40px;"></div>
+    <div class="row mgt10" ng-repeat="item in Evaluates">
+        <div class="col" ng-click="onDlgSeleteItem('Eva', item)">
+            {{item.Value}}
+            <i class="fr icon ion-ios-arrow-right"></i>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="tygasoft-plugin-barcodescan" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>BarcodeScanPlugin</name>
+  <js-module name="BarcodeScanPlugin" src="www/BarcodeScanPlugin.js">
+    <clobbers target="BarcodeScanPlugin" />
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="BarcodeScanPlugin">
+        <param name="android-package" value="com.tygasoft.plugins.BarcodeScanPlugin" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+    <source-file src="src/android/BarcodeScanPlugin.java" target-dir="src/com/tygasoft/plugins" />
+  </platform>
+</plugin>

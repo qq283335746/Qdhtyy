@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "tygasoft-plugin-barcodescan": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "tygasoft-plugin-nfc": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        },
+        "tygasoft-plugin-qdhtyy": {
+            "PACKAGE_NAME": "com.tygasoft.qdhtyy"
+        }
+    },
+    "dependent_plugins": {}
+}

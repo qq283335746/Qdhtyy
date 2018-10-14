@@ -1,0 +1,76 @@
+{
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device@~1.1.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console@~1.0.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@~1.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar@~2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "ionic-plugin-keyboard": {
+        "source": {
+            "type": "registry",
+            "id": "ionic-plugin-keyboard@~1.0.8"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "tygasoft-plugin-nfc": {
+        "source": {
+            "type": "local",
+            "path": "D:\\VSWorkspace\\ApacheCordova\\CustomPlugins\\tygasoft-plugin-nfc"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "tygasoft-plugin-qdhtyy": {
+        "source": {
+            "type": "local",
+            "path": "D:\\VSWorkspace\\ApacheCordova\\CustomPlugins\\tygasoft-plugin-qdhtyy"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "jpush-phonegap-plugin": {
+        "source": {
+            "type": "local",
+            "path": "D:\\SVN\\开发管理\\资源库\\极光推送\\客户端\\jpush-phonegap-plugin-master"
+        },
+        "is_top_level": true,
+        "variables": {
+            "APP_KEY": "48614412df5b4b94e6c51d84"
+        }
+    },
+    "cordova-plugin-jcore": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-jcore"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}

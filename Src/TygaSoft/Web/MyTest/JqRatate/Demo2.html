@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>大转盘demo2</title>
+	<meta charset="utf-8" />
+    <style type="text/css">
+        .container {width: 650px;height: 600px;margin: 0 auto;position: relative;border: 1px solid #f00;background: url("Images/b.jpg");}
+        .container .pointer {width: 174px;height: 228px;position: absolute;left: 50%;top: 50%;margin-left: -67px;margin-top: -144px;z-index: 8;}
+        .container .rotate {width: 450px;height: 450px;position: absolute;left: 116px;top: 60px;}
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="JqRotate.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="pointer"><img src="Images/bbb.png" alt="" /></div>
+        <div class="rotate">
+            <img id="rotate" src="Images/bb.png" alt="" />
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            var rotateTimeOut = function () {
+                $('#rotate').rotate({
+                    angle: 0,
+                    animateTo: 2160,
+                    duration: 8000,
+                    callback: function () {
+                        alert('网络超时，请检查您的网络设置！');
+                    }
+                });
+            };
+
+            var bRotate = false;
+            var rotateFn = function (awards, angles, msg) {
+                bRotate = !bRotate;
+                $('#rotate').stopRotate();
+                $('#rotate').rotate({
+                    angle: 0,
+                    animateTo: angles + 1800,
+                    duration: 8000,
+                    callback: function () {
+                        alert(msg);
+                        bRotate = !bRotate;
+                    }
+                })
+            };
+            $('.pointer').click(function () {
+                if (bRotate) return;
+                var item = rnd(0, 7);
+                switch (item) {
+                    case 0:
+                        //var angle = [26, 88, 137, 185, 235, 287, 337];
+                        rotateFn(0, 337, '奖项为：未中奖！');
+                        break;
+                    case 1:
+                        //var angle = [88, 137, 185, 235, 287];
+                        rotateFn(1, 26, '奖项为：免单4999元');
+                        break;
+                    case 2:
+                        //var angle = [137, 185, 235, 287];
+                        rotateFn(2, 88, '奖项为：免单50元');
+                        break;
+                    case 3:
+                        //var angle = [137, 185, 235, 287];
+                        rotateFn(3, 137, '奖项为：免单10元');
+                        break;
+                    case 4:
+                        //var angle = [185, 235, 287];
+                        rotateFn(4, 185, '奖项为：免单5元');
+                        break;
+                    case 5:
+                        //var angle = [185, 235, 287];
+                        rotateFn(5, 185, '奖项为：免单5元');
+                        break;
+                    case 6:
+                        //var angle = [235, 287];
+                        rotateFn(6, 235, '奖项为：免分期服务费');
+                        break;
+                    case 7:
+                        //var angle = [287];
+                        rotateFn(7, 287, '奖项为：提高白条额度');
+                        break;
+                }
+                console.log(item);
+            });
+        });
+
+        function rnd(n, m) {
+            return Math.floor(Math.random() * (m - n + 1) + n)
+        };
+    </script>
+</body>
+</html>
