@@ -1,9 +1,0 @@
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\bin\Debug\TygaSoft.DALFactory.dll
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\bin\Debug\TygaSoft.DALFactory.pdb
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\bin\Debug\TygaSoft.IDAL.dll
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\bin\Debug\TygaSoft.Model.dll
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\bin\Debug\TygaSoft.IDAL.pdb
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\bin\Debug\TygaSoft.Model.pdb
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\obj\Debug\TygaSoft.DALFactory.dll
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DALFactory\obj\Debug\TygaSoft.DALFactory.pdb

@@ -1,0 +1,47 @@
+﻿<ion-view view-title="费用查询">
+    <ion-content>
+        <div class="fm">
+            <div class="row">
+                <div class="col-25">月份：</div>
+                <div class="col-75">
+                    <a ng-click="onDpDate(5)" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{ModelData.YMonth}}
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">任务类型：</div>
+                <div class="col-75">
+                    <a ng-click="onDlgSelect('TaskType')" class="button button-small button-clear button-stable icon-right ion-ios-arrow-down">
+                        {{ModelData.TaskType}}
+                    </a>
+                </div>
+            </div>
+            <div class="padding">
+                <button class="button button-block button-positive" ng-click="onSearch()">查询</button>
+            </div>
+        </div>
+        <div class="dg-list">
+            <div class="box" ng-repeat="item in Charges">
+                <div class="row">
+                    <div class="col" ng-click="toggleGroup(item)" ng-class="{active: isGroupShown(item)}">日期：{{item.TBdate}}</div>
+                    <div class="col">
+                        <span class="fr">费用：{{item.TBFee}}</span>
+                    </div>
+                </div>
+                <div class="subbox" ng-show="isGroupShown(item)">
+                    <div class="row">
+                        <div class="col">类型：{{item.TBFName}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">描述说明：{{item.TBnotes}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" ng-show="!Charges || Charges.length==0">
+                <div class="row"><div class="col">暂无记录</div></div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

@@ -1,6 +1,0 @@
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\CA\obj\Debug\CA.csprojResolveAssemblyReference.cache
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\CA\bin\Debug\TygaSoft.CA.exe.config
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\CA\bin\Debug\TygaSoft.CA.exe
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\CA\bin\Debug\TygaSoft.CA.pdb
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\CA\obj\Debug\TygaSoft.CA.exe
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\CA\obj\Debug\TygaSoft.CA.pdb

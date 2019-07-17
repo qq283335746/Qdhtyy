@@ -1,5 +1,0 @@
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DBUtility\bin\Debug\TygaSoft.DBUtility.dll
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DBUtility\bin\Debug\TygaSoft.DBUtility.pdb
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DBUtility\obj\Debug\TygaSoft.DBUtility.dll
-D:\VSWorkspace\SoftCode\青岛恒通押运项目\源码\TygaSoft\DBUtility\obj\Debug\TygaSoft.DBUtility.pdb

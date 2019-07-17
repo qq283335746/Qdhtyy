@@ -1,0 +1,49 @@
+﻿<ion-view view-title="扫描尾箱">
+    <ion-header-bar class="bar-positive">
+        <h1 class="title">{{TaskInfo.TB_Bname}}</h1>
+    </ion-header-bar>
+    <ion-content>
+
+        <div class="row">
+            <div class="col">
+                <a class="button button-positive fr" ng-click="onDlgTaskCargo()">保存条码</a>
+            </div>
+        </div>
+        <div class="padding button-bar button-clear-border-none">
+            <a class="button" ng-class="btnTabIndex == 0 ? 'button-positive':'button-outline button-clear'" ng-click="onTabSelected(0)">扫描</a>
+            <a class="button" ng-class="btnTabIndex == 1 ? 'button-positive':'button-outline button-clear'" ng-click="onTabSelected(1)">手动</a>
+        </div>
+        <div class="fm">
+            <div class="row">
+                <div class="col col-33">{{btnTabIndex == 0 ? "扫描":"输入"}}条码：</div>
+                <div class="col col-67"><input type="text" ng-model="ModelData.Barcode" ng-change="onBarcodeChanged()" /></div>
+            </div>
+            <div class="padding" ng-show="btnTabIndex == 1">
+                <button class="button button-block button-positive" ng-click="onSure()">确定</button>
+            </div>
+        </div>
+        <div class="item item-divider mgt10">已扫描列表</div>
+        <div class="dg-list">
+            <div class="box" ng-repeat="item in ScanData">
+                <div class="row">
+                    <div class="col col-80" ng-click="toggleGroup(item)" ng-class="{active: isGroupShown(item)}">条码：{{item.Barcode}}</div>
+                    <div class="col col-20">
+                        <span class="badge badge-positive">{{item.Status}}</span>
+                    </div>
+                </div>
+                <!--<div class="subbox" ng-show="isGroupShown(item)">
+                    <div class="row">
+                        <div class="col">客户号：{{item.TBBNO}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">客户名称：{{item.TBBname}}</div>
+                    </div>
+                </div>-->
+            </div>
+            <div class="box" ng-show="ScanData.length==0">
+                <div class="row"><div class="col">暂无记录</div></div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

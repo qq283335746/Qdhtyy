@@ -1,0 +1,36 @@
+﻿<ion-view view-title="库存尾箱列表">
+    <ion-content>
+        <div class="dg-list">
+            <div class="box" ng-repeat="item in Boxs">
+                <div class="row">
+                    <div class="col col-80" ng-click="toggleGroup(item)" ng-class="{active: isGroupShown(item)}">尾箱号：{{item.BoxNo}}</div>
+                    <div class="col col-20">
+                        <span class="fr badge badge-positive">{{item.State == '' ? '新':item.State}}</span>
+                    </div>
+                </div>
+                <div class="subbox" ng-show="isGroupShown(item)">
+                    <div class="row">
+                        <div class="col">网点号：{{item.BoxBno}}</div>
+                        <div class="col">存放类型：{{item.BoxTypeName}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">目标中心：{{item.BoxDcid}}</div>
+                        <div class="col">目标网点号：{{item.BoxDBno	}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">预计出库日期：{{item.BoxPdate}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a class="fr" ng-click="onBoxSelected(item)"><span class="badge badge-positive">状态调整</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" ng-show="!Boxs || Boxs.length==0">
+                <div class="row"><div class="col">暂无记录</div></div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>
